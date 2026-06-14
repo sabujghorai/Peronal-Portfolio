@@ -4,6 +4,23 @@
 }
 
 body{
-    background-color: rgb(20, 20, 79);
+    background-color: rgb(4, 97, 137);
     color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 97px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
 }
