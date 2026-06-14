@@ -1,115 +1,113 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
     background-color: rgb(6, 13, 17);
     color: white;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 80px;
-    background-color:rgb(4, 13, 16) ;
+    background-color: rgb(4, 13, 16);
 }
 
-nav ul{
+nav ul {
     display: flex;
     justify-content: center;
 }
 
-nav ul li{
+nav ul li {
     font-size: 1.5rem;
     list-style: none;
     margin: 0 23px;
 }
 
-nav ul li a{
+nav ul li a {
     list-style: none;
     margin: 0 23px;
     text-decoration: none;
     color: white;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     font-size: 1.7rem;
-    text-shadow: 
+    text-shadow:
         0 0 5px #7DBFFF,
         0 0 10px #7DBFFF,
         0 0 20px #7DBFFF,
         0 0 40px #7DBFFF;
 }
 
-.left{
+.left {
     font-size: 1.5rem;
-  font-weight: 700;
-  font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
 
-  background: linear-gradient(
-    90deg,
-    #8B3DFF 0%,
-    #6A5BFF 50%,
-    #7DBFFF 100%
-  );
+    background: linear-gradient(90deg,
+            #8B3DFF 0%,
+            #6A5BFF 50%,
+            #7DBFFF 100%);
 
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
 }
 
-.firstsection{
+.firstsection {
     margin: 50px 0;
     display: flex;
     justify-content: space-around;
     font-family: 'Poppins', sans-serif;
 }
 
-.secondsection{
+.secondsection {
     max-width: 80vw;
     margin: auto;
 }
 
-.firstsection > div{
+.firstsection>div {
     width: 50%;
 }
 
-.leftsection{
+.leftsection {
     font-size: 2.5rem;
     margin: 70px 0;
     text-align: center;
 }
 
-.rightsection{
-    width: 80%;;
+.rightsection {
+    width: 80%;
+    ;
 }
-.rightsection img{
+
+.rightsection img {
     width: 80%;
 }
 
-.purple{
+.purple {
     font-size: 3.5rem;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
 
-  background: linear-gradient(
-    90deg,
-    #8B3DFF 0%,
-    #6A5BFF 50%,
-    #7DBFFF 100%
-  );
+    background: linear-gradient(90deg,
+            #8B3DFF 0%,
+            #6A5BFF 50%,
+            #7DBFFF 100%);
 
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
 }
 
-#element{
+#element {
     font-size: 2.7rem;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
