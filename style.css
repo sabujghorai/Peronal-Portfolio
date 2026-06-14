@@ -61,7 +61,7 @@ nav ul li a:hover {
 }
 
 .firstsection {
-    margin: 50px 0;
+    margin: 130px 0;
     display: flex;
     justify-content: space-around;
     font-family: 'Poppins', sans-serif;
@@ -113,4 +113,13 @@ nav ul li a:hover {
     font-family: 'Poppins', sans-serif;
     color: #b65df1;
 
+}main hr{
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px ;
+    margin: 50px 94px;
+}
+
+.secondsection h1{
+    font-size: 2rem;
 }
