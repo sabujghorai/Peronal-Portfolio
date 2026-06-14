@@ -14,7 +14,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     height: 80px;
-    background-color:rgb(15, 62, 80) ;
+    background-color:rgb(4, 13, 16) ;
 }
 
 nav ul{
@@ -67,6 +67,11 @@ nav ul li a:hover{
     display: flex;
     justify-content: space-around;
     font-family: 'Poppins', sans-serif;
+}
+
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
 }
 
 .firstsection > div{
