@@ -105,19 +105,9 @@ nav ul li a:hover{
 }
 
 #element{
-     font-size: 2.7rem;
+    font-size: 2.7rem;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
+    color: #b65df1;
 
-  background: linear-gradient(
-    90deg,
-    #8B3DFF 0%,
-    #6A5BFF 50%,
-    #7DBFFF 100%
-  );
-
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
 }
