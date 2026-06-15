@@ -1,19 +1,34 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #060d11;
+    overflow: hidden;
+    cursor: default;
+}
+
+.cursor-glow{
+    position: fixed;
+    width: 250px;
+    height: 250px;
+    background: rgba(146, 63, 255, 0.4);
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    filter: blur(80px);
+    z-index: 9999;
+    transition: transform 0.08s linear;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-    background: #060d11;
-    color: white;
-    overflow-x: hidden;
-}
 
 /* NAVBAR */
 
