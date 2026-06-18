@@ -107,6 +107,13 @@ header {
         0 0 60px #7DBFFF;
 }
 
+.right img:hover{
+    cursor: pointer;
+    size: 1.02rem;
+    text-shadow: #7c3ccf;
+    font-size: 1.1rem;
+}
+
 /* BUTTONS */
 
 header button {
