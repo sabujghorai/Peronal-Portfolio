@@ -4,129 +4,761 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Sabuj Ghorai | Portfolio</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
+    <!-- ================= NAVBAR ================= -->
+
     <header>
-        <div>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Project</li>
-                    <li>Work Experience</li>
-                    <li>Contact Me</li>
-                </ul>
-            </nav>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                <h2>Sabuj.</h2>
+            </div>
+
+            <ul class="nav-links">
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#skills">Skills</a></li>
+
+                <li><a href="#projects">Projects</a></li>
+
+                <li><a href="#journey">Journey</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+            <button class="resume-btn">
+                Resume
+            </button>
+
+        </nav>
+
+    </header>
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="hello">
+                👋 Hello, I'm
+            </p>
+
+            <h1>
+                Sabuj Ghorai
+            </h1>
+
+            <h2>
+                Python Developer • Web Developer • Future MLOps Engineer
+            </h2>
+
+            <p class="description">
+
+                Passionate Computer Science student learning
+                Python, DSA, Web Development, Linux,
+                Docker, Kubernetes and Cloud Technologies.
+
+                Building projects every day while preparing
+                for Software Engineering and MLOps internships.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn-primary">
+
+                    View Projects
+
+                </a>
+
+                <a href="#contact" class="btn-secondary">
+
+                    Contact Me
+
+                </a>
+
+            </div>
+
+            <div class="social-icons">
+
+                <a href="#">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fas fa-envelope"></i>
+                </a>
+
+            </div>
+
         </div>
 
-        <section class="leftsection">
-            Hi, I'm <br>
+        <!-- Profile Image -->
 
-            <span class="name">Sabuj Ghorai</span><br>
+        <div class="hero-image">
 
-            Aspiring MLOps Engineer | AI Enthusiast | Cloud Learner
+            <img src="images/profile.png"
+                alt="Sabuj Ghorai">
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT SECTION ================= -->
+
+<section id="about" class="about">
+
+    <div class="section-title">
+        <h2>About Me</h2>
+        <p>Get to know me better</p>
+    </div>
+
+    <div class="about-container">
+
+        <!-- Left Side -->
+
+        <div class="about-image">
+
+            <img src="images/about.png" alt="About Me">
+
+        </div>
+
+        <!-- Right Side -->
+
+        <div class="about-content">
+
+            <h3>Hello 👋</h3>
 
             <p>
-                I build scalable Machine Learning pipelines
+
+                I am <strong>Sabuj Ghorai</strong>, a Computer Science student
+                passionate about Software Development, Python,
+                Artificial Intelligence, Cloud Computing and MLOps.
+
             </p>
-        </section>
 
-        <div class="right">
-            <section class="rightsection"> <img src="bg.jpeg" alt="My photo"></section>
+            <p>
+
+                I love building real-world projects and continuously
+                improving my programming skills through daily practice.
+
+            </p>
+
+            <p>
+
+                My goal is to become an MLOps Engineer and contribute
+                to innovative AI solutions while learning modern cloud technologies.
+
+            </p>
+
+            <a href="#" class="btn-primary">
+                Download Resume
+            </a>
+
         </div>
 
-        <div>
-            <button>Download Resume</button>
-            <button>View Projects</button>
-            <button>Contact Me</button>
+    </div>
+
+</section>
+
+<!-- ================= STATS SECTION ================= -->
+
+<section class="stats">
+
+    <div class="stat-card">
+
+        <h2>60+</h2>
+
+        <p>Days of Python Learning</p>
+
+    </div>
+
+    <div class="stat-card">
+
+        <h2>8+</h2>
+
+        <p>MLOps Journey</p>
+
+    </div>
+
+    <div class="stat-card">
+
+        <h2>15+</h2>
+
+        <p>GitHub Projects</p>
+
+    </div>
+
+    <div class="stat-card">
+
+        <h2>100%</h2>
+
+        <p>Learning Every Day</p>
+
+    </div>
+
+</section>
+
+<!-- ================= EDUCATION ================= -->
+
+<section class="education">
+
+    <div class="section-title">
+
+        <h2>Education</h2>
+
+        <p>Academic Background</p>
+
+    </div>
+
+    <div class="education-card">
+
+        <h3>B.Tech in Computer Science & Engineering</h3>
+
+        <h4>Brainware University</h4>
+
+        <span>2025 - Present</span>
+
+        <p>
+
+            Currently pursuing my Bachelor's degree while
+            focusing on Python, Web Development,
+            Data Structures & Algorithms,
+            Linux, Docker, Kubernetes and MLOps.
+
+        </p>
+
+    </div>
+
+</section>
+
+<!-- ================= TECH STACK ================= -->
+
+<section class="tech-stack">
+
+    <div class="section-title">
+
+        <h2>Tech Stack</h2>
+
+        <p>Technologies I Work With</p>
+
+    </div>
+
+    <div class="tech-grid">
+
+        <div class="tech-card">
+            <img src="icons/python.png" alt="">
+            <h4>Python</h4>
         </div>
-    </header>
-    <hr>
-    <main>
-        <h1>About Me</h1>
-        <pre>
-            Hello! I'm Sabuj Ghorai, an aspiring MLOps Engineer and Computer Science student passionate about Machine Learning, Cloud Computing, DevOps, and Artificial Intelligence.
 
-            I enjoy building intelligent applications and deploying machine learning models into production environments. My goal is to bridge the gap between machine learning development and scalable deployment using modern MLOps practices.
-
-            Currently, I am learning Docker, Kubernetes, CI/CD pipelines, AWS, and model deployment technologies while working on real-world projects.
-        </pre>
-
-        <h1>Education</h1>
-        <pre>
-            Bachelor of Technology (B.Tech)
-            Computer Science & Engineering
-
-            Brainware University
-            2025 – 2029
-
-            Relevant Coursework:
-            • Data Structures & Algorithms
-            • Database Management Systems
-            • Machine Learning
-            • Cloud Computing
-            • Operating Systems
-        </pre>
-
-        <div class="skills">
-            <h1>Technical Skills</h1>
-        </div>
-        <h3>Python</h3>
-        <h3>Linux</h3>
-        <h3>Git & Github</h3>
-        <h3>Docker</h3>
-        <h3>Kubernetes</h3>
-        <h3>CI-CD pipelines</h3>
-        <h3>Absible</h3>
-        <h3>Terraform</h3>
-
-
-        <div class="experience-box">
-            <h3>MLOps Learning Journey</h3>
-            <p class="date">2025 – Present</p>
-
-            <ul>
-                <li>Learning CI/CD pipelines.</li>
-                <li>Working with Docker containers.</li>
-                <li>Deploying ML models.</li>
-                <li>Exploring Kubernetes orchestration.</li>
-            </ul>
-
-            <h3>Machine Learning Projects</h3>
-            <p class="date">2024 – Present</p>
-
-            <ul>
-                <li>Built machine learning applications.</li>
-                <li>Data preprocessing and model training.</li>
-                <li>Model evaluation and deployment.</li>
-            </ul>
-        </div>
-    </main>
-
-    <footer>
-        <h2>Let's Connect</h2>
-        <div class="name">
-            <label for="name">Name</label>
-            <input type="text" placeholder="Enter Your Name">
+        <div class="tech-card">
+            <img src="icons/html.png" alt="">
+            <h4>HTML5</h4>
         </div>
 
-        <div class="email">
-            <label for="email">Email</label>
-            <input type="email" placeholder="Enter Your Email">
+        <div class="tech-card">
+            <img src="icons/css.png" alt="">
+            <h4>CSS3</h4>
         </div>
 
-        <div class="Phone">
-            <label for="Phone">Phone Number</label>
-            <input type="tel" placeholder="Enter Your Mobile Number">
+        <div class="tech-card">
+            <img src="icons/javascript.png" alt="">
+            <h4>JavaScript</h4>
         </div>
 
-        <div class="submit">
-            <button type="submit"><h1>Submit</h1></button>
+        <div class="tech-card">
+            <img src="icons/git.png" alt="">
+            <h4>Git</h4>
         </div>
-    </footer>
+
+        <div class="tech-card">
+            <img src="icons/github.png" alt="">
+            <h4>GitHub</h4>
+        </div>
+
+        <div class="tech-card">
+            <img src="icons/linux.png" alt="">
+            <h4>Linux</h4>
+        </div>
+
+        <div class="tech-card">
+            <img src="icons/docker.png" alt="">
+            <h4>Docker</h4>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SKILLS SECTION ================= -->
+
+<section id="skills" class="skills">
+
+    <div class="section-title">
+        <h2>My Skills</h2>
+        <p>Technologies I'm learning and using</p>
+    </div>
+
+    <div class="skills-container">
+
+        <!-- Technical Skills -->
+
+        <div class="skills-card">
+
+            <h3>Programming</h3>
+
+            <div class="skill">
+                <span>Python</span>
+                <progress value="85" max="100"></progress>
+            </div>
+
+            <div class="skill">
+                <span>HTML</span>
+                <progress value="95" max="100"></progress>
+            </div>
+
+            <div class="skill">
+                <span>CSS</span>
+                <progress value="90" max="100"></progress>
+            </div>
+
+            <div class="skill">
+                <span>JavaScript</span>
+                <progress value="70" max="100"></progress>
+            </div>
+
+        </div>
+
+        <!-- Development -->
+
+        <div class="skills-card">
+
+            <h3>Development</h3>
+
+            <div class="skill">
+                <span>Git & GitHub</span>
+                <progress value="85" max="100"></progress>
+            </div>
+
+            <div class="skill">
+                <span>Linux</span>
+                <progress value="75" max="100"></progress>
+            </div>
+
+            <div class="skill">
+                <span>Docker</span>
+                <progress value="45" max="100"></progress>
+            </div>
+
+            <div class="skill">
+                <span>Kubernetes</span>
+                <progress value="20" max="100"></progress>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= LEARNING JOURNEY ================= -->
+
+<section id="journey" class="journey">
+
+    <div class="section-title">
+        <h2>Learning Journey</h2>
+        <p>Consistency beats talent</p>
+    </div>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+
+            <span class="date">Python Journey</span>
+
+            <h3>180 Days Python Challenge</h3>
+
+            <p>
+
+                Learning Python every day with a focus on
+                Data Structures & Algorithms,
+                NumPy,
+                problem solving,
+                and interview preparation.
+
+            </p>
+
+        </div>
+
+        <div class="timeline-item">
+
+            <span class="date">MLOps Journey</span>
+
+            <h3>365 Days MLOps Roadmap</h3>
+
+            <p>
+
+                Learning Linux,
+                Docker,
+                Kubernetes,
+                AWS,
+                CI/CD,
+                Terraform,
+                Monitoring,
+                and Machine Learning deployment.
+
+            </p>
+
+        </div>
+
+        <div class="timeline-item">
+
+            <span class="date">Web Development</span>
+
+            <h3>Frontend Development</h3>
+
+            <p>
+
+                Building responsive websites using
+                HTML,
+                CSS,
+                JavaScript,
+                and modern UI/UX practices.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+
+<section class="experience">
+
+    <div class="section-title">
+        <h2>Experience</h2>
+        <p>What I'm currently doing</p>
+    </div>
+
+    <div class="experience-card">
+
+        <h3>Computer Science Student</h3>
+
+        <span>2025 - Present</span>
+
+        <p>
+
+            Currently focused on learning Python,
+            Web Development,
+            Data Structures & Algorithms,
+            Cloud Computing,
+            DevOps,
+            and MLOps while building practical projects.
+
+        </p>
+
+    </div>
+
+    <div class="experience-card">
+
+        <h3>Open Source Learner</h3>
+
+        <span>GitHub</span>
+
+        <p>
+
+            Maintaining multiple repositories,
+            contributing daily,
+            documenting projects,
+            and continuously improving coding skills.
+
+        </p>
+
+    </div>
+
+</section>
+
+<!-- ================= CERTIFICATES ================= -->
+
+<section class="certificates">
+
+    <div class="section-title">
+
+        <h2>Certificates</h2>
+
+        <p>Achievements & Certifications</p>
+
+    </div>
+
+    <div class="certificate-grid">
+
+        <div class="certificate-card">
+            <img src="images/certificate1.jpg" alt="">
+            <h3>Python Certificate</h3>
+        </div>
+
+        <div class="certificate-card">
+            <img src="images/certificate2.jpg" alt="">
+            <h3>Web Development</h3>
+        </div>
+
+        <div class="certificate-card">
+            <img src="images/certificate3.jpg" alt="">
+            <h3>Linux</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="projects">
+
+    <div class="section-title">
+        <h2>Featured Projects</h2>
+        <p>Some of my recent work</p>
+    </div>
+
+    <div class="project-grid">
+
+        <div class="project-card">
+
+            <img src="images/project1.png" alt="">
+
+            <div class="project-content">
+
+                <h3>Netflix Clone</h3>
+
+                <p>
+                    Responsive Netflix landing page built using
+                    HTML and CSS.
+                </p>
+
+                <a href="#">Live Demo</a>
+                <a href="#">GitHub</a>
+
+            </div>
+
+        </div>
+
+        <div class="project-card">
+
+            <img src="images/project2.png" alt="">
+
+            <div class="project-content">
+
+                <h3>Python DSA Repository</h3>
+
+                <p>
+                    Collection of Data Structures and Algorithms
+                    implemented in Python.
+                </p>
+
+                <a href="#">GitHub</a>
+
+            </div>
+
+        </div>
+
+        <div class="project-card">
+
+            <img src="images/project3.png" alt="">
+
+            <div class="project-content">
+
+                <h3>Linux Commands Repository</h3>
+
+                <p>
+                    Linux commands and notes for DevOps &
+                    MLOps learning.
+                </p>
+
+                <a href="#">GitHub</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= GITHUB ================= -->
+
+<section class="github">
+
+    <div class="section-title">
+
+        <h2>GitHub Activity</h2>
+
+        <p>My coding journey</p>
+
+    </div>
+
+    <div class="github-container">
+
+        <!-- Replace these image URLs later with your own GitHub stats -->
+
+        <img src="images/github-stats.png"
+            alt="GitHub Stats">
+
+        <img src="images/github-streak.png"
+            alt="GitHub Streak">
+
+        <img src="images/github-graph.png"
+            alt="Contribution Graph">
+
+    </div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact">
+
+    <div class="section-title">
+
+        <h2>Contact Me</h2>
+
+        <p>Let's work together</p>
+
+    </div>
+
+    <div class="contact-container">
+
+        <!-- Left -->
+
+        <div class="contact-info">
+
+            <h3>Get In Touch</h3>
+
+            <p>
+
+                Feel free to contact me for internships,
+                freelance work, collaborations,
+                or exciting projects.
+
+            </p>
+
+            <p>📧 Email : your@email.com</p>
+
+            <p>📱 Phone : +91 XXXXXXXXXX</p>
+
+            <p>📍 Kolkata, India</p>
+
+        </div>
+
+        <!-- Right -->
+
+        <form>
+
+            <input type="text"
+                placeholder="Your Name">
+
+            <input type="email"
+                placeholder="Your Email">
+
+            <input type="text"
+                placeholder="Subject">
+
+            <textarea
+                rows="6"
+                placeholder="Your Message"></textarea>
+
+            <button type="submit">
+
+                Send Message
+
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <h2>Sabuj Ghorai</h2>
+
+    <p>
+
+        Python Developer • Web Developer • Future MLOps Engineer
+
+    </p>
+
+    <div class="footer-social">
+
+        <a href="#">GitHub</a>
+
+        <a href="#">LinkedIn</a>
+
+        <a href="#">Instagram</a>
+
+        <a href="#">Email</a>
+
+    </div>
+
+    <p>
+
+        © 2026 Sabuj Ghorai.
+        All Rights Reserved.
+
+    </p>
+
+</footer>
+
+<!-- Back To Top -->
+
+<a href="#home" class="top-btn">
+
+    ↑
+
+</a>
+
+<!-- JavaScript -->
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+
 </body>
 
 </html>
