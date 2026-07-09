@@ -40,12 +40,12 @@ body{
 }
 
 ::-webkit-scrollbar-thumb{
-    background:#4f46e5;
-    border-radius:20px;
+    background:#827dec;
+    border-radius:50px;
 }
 
 ::-webkit-scrollbar-thumb:hover{
-    background:#7c3aed;
+    background:#40a1e2;
 }
 
 /* ===========================
@@ -54,7 +54,7 @@ body{
 
 a{
     text-decoration:none;
-    color:white;
+    color:rgb(255, 255, 255);
 }
 
 ul{
@@ -212,6 +212,19 @@ header{
     margin-bottom:35px;
 }
 
+.hero-buttons a:hover{
+
+    color:#00e5ff;
+
+    border-color:#00e5ff;
+
+    box-shadow:
+        0 0 8px #00e5ff,
+        0 0 20px rgba(0,229,255,.5);
+
+    transform:translateY(-4px);
+} 
+
 .btn-primary{
     padding:14px 34px;
     background:#2563eb;
@@ -241,25 +254,41 @@ header{
 
 .social-icons{
     display:flex;
-    gap:18px;
+    gap: 40px;
 }
 
 .social-icons a{
-    width:48px;
-    height:48px;
+    margin: auto;
+    width:70px;
+    height:70px;
+
     display:flex;
     justify-content:center;
     align-items:center;
-    background:#111827;
+
+    border:2px solid #34565d;
     border-radius:50%;
-    transition:.3s;
-    font-size:20px;
+
+    color:#8f9fa5;
+    font-size:30px;
+
+    text-decoration:none;
+
+    transition:0.35s ease;
 }
 
 .social-icons a:hover{
-    background:#2563eb;
-    transform:translateY(-6px);
-}
+
+    color:#00e5ff;
+
+    border-color:#00e5ff;
+
+    box-shadow:
+        0 0 8px #00e5ff,
+        0 0 20px rgba(0,229,255,.5);
+
+    transform:translateY(-4px);
+} 
 
 /* ===========================
    HERO BACKGROUND
