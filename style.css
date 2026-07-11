@@ -89,12 +89,6 @@ section {
 
 
 
-/*========================
-        NAVBAR
-========================*/
-
-
-
 /* Google Font */
 
 *{
@@ -147,14 +141,10 @@ section {
 .navbar::before{
 
     content:"";
-
     position:absolute;
     inset:-1px;
-
     border-radius:999px;
-
     padding:1px;
-
     background:linear-gradient(
         90deg,
         transparent,
@@ -166,13 +156,13 @@ section {
     -webkit-mask:
     linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
+    mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
 
     -webkit-mask-composite:xor;
-
     mask-composite:exclude;
-
     opacity:.55;
-
     pointer-events:none;
 }
 
@@ -194,21 +184,14 @@ section {
 
     width:46px;
     height:46px;
-
     border-radius:14px;
-
     display:flex;
     align-items:center;
     justify-content:center;
-
     font-weight:700;
-
     background:linear-gradient(135deg,#00F5FF,#0084FF);
-
     color:#fff;
-
     box-shadow:0 0 25px rgba(0,245,255,.4);
-
     transition:.4s;
 }
 
