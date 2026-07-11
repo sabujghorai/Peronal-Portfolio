@@ -13,7 +13,7 @@ html {
 }
 
 body {
-
+    scroll-behavior:calc();
     background: #050816;
     color: #ffffff;
     overflow-x: hidden;
@@ -473,7 +473,7 @@ body::before {
 }
 
 .hero h2 {
-    color: #cbd5e1;
+    color: #8a4ef8;
     font-size: 28px;
     margin-bottom: 25px;
 }
