@@ -222,17 +222,11 @@ section {
 .nav-menu a{
 
     color:#d4d7df;
-
     text-decoration:none;
-
     font-size:.95rem;
-
     font-weight:500;
-
     padding:10px 18px;
-
     border-radius:999px;
-
     transition:.3s ease;
 
 }
@@ -240,9 +234,7 @@ section {
 .nav-menu a:hover{
 
     color:#fff;
-
     background:rgba(0,245,255,.12);
-
     box-shadow:
         inset 0 0 0 1px rgba(0,245,255,.18),
         0 0 18px rgba(0,245,255,.15);
@@ -254,7 +246,6 @@ section {
 .nav-menu a.active{
 
     color:#fff;
-
     background:linear-gradient(
         135deg,
         rgba(0,245,255,.22),
@@ -270,11 +261,8 @@ section {
 .menu-btn{
 
     display:none;
-
     color:white;
-
     font-size:1.4rem;
-
     cursor:pointer;
 
 }
@@ -286,23 +274,14 @@ section {
 .nav-menu{
 
 position:absolute;
-
 top:90px;
-
 left:0;
-
 width:100%;
-
 padding:25px;
-
 display:none;
-
 flex-direction:column;
-
 border-radius:25px;
-
 background:rgba(15,18,30,.95);
-
 backdrop-filter:blur(20px);
 
 }
@@ -316,15 +295,12 @@ display:flex;
 .menu-btn{
 
 display:block;
-
 }
-
 }
 
 @media(max-width:700px){
 
 .logo span{
-
 display:none;
 
 }
@@ -336,16 +312,6 @@ padding:12px 16px;
 }
 
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1162,11 +1128,8 @@ progress::-moz-progress-bar {
 .timeline {
 
     position: relative;
-
     max-width: 1000px;
-
     margin: 60px auto 0;
-
     padding-left: 40px;
 
 }
@@ -1176,17 +1139,11 @@ progress::-moz-progress-bar {
 .timeline::before {
 
     content: "";
-
     position: absolute;
-
     left: 12px;
-
     top: 0;
-
     width: 4px;
-
     height: 100%;
-
     background: linear-gradient(to bottom,
             #38bdf8,
             #2563eb,
@@ -1199,21 +1156,13 @@ progress::-moz-progress-bar {
 .timeline-item {
 
     position: relative;
-
     margin-bottom: 50px;
-
     padding: 30px;
-
     margin-left: 35px;
-
     background: rgba(255, 255, 255, .05);
-
     backdrop-filter: blur(20px);
-
     border: 1px solid rgba(255, 255, 255, .08);
-
     border-radius: 20px;
-
     transition: .35s ease;
 
 }
@@ -1221,9 +1170,7 @@ progress::-moz-progress-bar {
 .timeline-item:hover {
 
     transform: translateY(-8px);
-
     border-color: #38bdf8;
-
     box-shadow: 0 20px 40px rgba(37, 99, 235, .25);
 
 }
@@ -1233,23 +1180,14 @@ progress::-moz-progress-bar {
 .timeline-item::before {
 
     content: "";
-
     position: absolute;
-
     left: -53px;
-
     top: 35px;
-
     width: 22px;
-
     height: 22px;
-
     background: #38bdf8;
-
     border: 5px solid #050816;
-
     border-radius: 50%;
-
     box-shadow: 0 0 15px rgba(56, 189, 248, .7);
 
 }
@@ -1258,17 +1196,11 @@ progress::-moz-progress-bar {
 .timeline-item .date {
 
     display: inline-block;
-
     padding: 8px 18px;
-
     background: #2563eb;
-
     border-radius: 30px;
-
     font-size: 14px;
-
     margin-bottom: 18px;
-
     color: #fff;
 
 }
@@ -1276,9 +1208,7 @@ progress::-moz-progress-bar {
 .timeline-item h3 {
 
     font-size: 26px;
-
     color: #ffffff;
-
     margin-bottom: 15px;
 
 }
@@ -1286,9 +1216,7 @@ progress::-moz-progress-bar {
 .timeline-item p {
 
     color: #cbd5e1;
-
     line-height: 1.8;
-
     font-size: 16px;
 
 }
@@ -1296,7 +1224,6 @@ progress::-moz-progress-bar {
 .timeline-item:hover .date {
 
     background: #38bdf8;
-
     transition: .3s;
 
 }
@@ -1311,23 +1238,14 @@ progress::-moz-progress-bar {
 .journey::before {
 
     content: "";
-
     position: absolute;
-
     width: 320px;
-
     height: 320px;
-
     background: #2563eb;
-
     filter: blur(160px);
-
     opacity: .12;
-
     right: -120px;
-
     top: 0;
-
     z-index: -1;
 
 }
@@ -1350,7 +1268,6 @@ progress::-moz-progress-bar {
     .timeline-item {
 
         margin-left: 25px;
-
         padding: 25px;
 
     }
@@ -1358,9 +1275,7 @@ progress::-moz-progress-bar {
     .timeline-item::before {
 
         left: -35px;
-
         width: 18px;
-
         height: 18px;
 
     }
@@ -1414,21 +1329,13 @@ progress::-moz-progress-bar {
 .experience-card {
 
     background: rgba(255, 255, 255, 0.05);
-
     backdrop-filter: blur(20px);
-
     border: 1px solid rgba(255, 255, 255, 0.08);
-
     border-radius: 20px;
-
     padding: 35px;
-
     margin-bottom: 30px;
-
     transition: all .4s ease;
-
     position: relative;
-
     overflow: hidden;
 
 }
@@ -1438,17 +1345,11 @@ progress::-moz-progress-bar {
 .experience-card::before {
 
     content: "";
-
     position: absolute;
-
     left: 0;
-
     top: 0;
-
     width: 6px;
-
     height: 100%;
-
     background: linear-gradient(to bottom,
             #38bdf8,
             #2563eb);
@@ -1460,9 +1361,7 @@ progress::-moz-progress-bar {
 .experience-card:hover {
 
     transform: translateY(-10px);
-
     border-color: #38bdf8;
-
     box-shadow: 0 20px 45px rgba(37, 99, 235, .25);
 
 }
@@ -1472,9 +1371,7 @@ progress::-moz-progress-bar {
 .experience-card h3 {
 
     font-size: 28px;
-
     color: #ffffff;
-
     margin-bottom: 10px;
 
 }
@@ -1484,17 +1381,11 @@ progress::-moz-progress-bar {
 .experience-card span {
 
     display: inline-block;
-
     padding: 8px 18px;
-
     border-radius: 30px;
-
     background: #2563eb;
-
     color: #fff;
-
     font-size: 14px;
-
     margin-bottom: 20px;
 
 }
@@ -1504,9 +1395,7 @@ progress::-moz-progress-bar {
 .experience-card p {
 
     color: #cbd5e1;
-
     font-size: 16px;
-
     line-height: 1.8;
 
 }
@@ -1530,23 +1419,14 @@ progress::-moz-progress-bar {
 .experience::before {
 
     content: "";
-
     position: absolute;
-
     width: 320px;
-
     height: 320px;
-
     background: #7c3aed;
-
     filter: blur(180px);
-
     opacity: .10;
-
     left: -120px;
-
     bottom: 0;
-
     z-index: -1;
 
 }
@@ -1759,17 +1639,11 @@ progress::-moz-progress-bar {
 .project-card {
 
     background: rgba(255, 255, 255, .05);
-
     backdrop-filter: blur(20px);
-
     border: 1px solid rgba(255, 255, 255, .08);
-
     border-radius: 20px;
-
     overflow: hidden;
-
     transition: all .4s ease;
-
     cursor: pointer;
 
 }
@@ -1777,9 +1651,7 @@ progress::-moz-progress-bar {
 .project-card:hover {
 
     transform: translateY(-12px);
-
     border-color: #38bdf8;
-
     box-shadow: 0 20px 45px rgba(37, 99, 235, .30);
 
 }
@@ -1788,11 +1660,8 @@ progress::-moz-progress-bar {
 .project-card img {
 
     width: 100%;
-
     height: 220px;
-
     object-fit: cover;
-
     transition: .5s;
 
 }
@@ -1813,9 +1682,7 @@ progress::-moz-progress-bar {
 .project-content h3 {
 
     font-size: 24px;
-
     color: #ffffff;
-
     margin-bottom: 15px;
 
 }
@@ -1823,11 +1690,8 @@ progress::-moz-progress-bar {
 .project-content p {
 
     color: #cbd5e1;
-
     line-height: 1.8;
-
     margin-bottom: 25px;
-
     font-size: 15px;
 
 }
@@ -1836,23 +1700,14 @@ progress::-moz-progress-bar {
 .project-content a {
 
     display: inline-block;
-
     margin-right: 15px;
-
     margin-top: 10px;
-
     padding: 10px 20px;
-
     border-radius: 30px;
-
     background: #2563eb;
-
     color: white;
-
     transition: .3s;
-
     font-size: 14px;
-
     font-weight: 500;
 
 }
@@ -1860,7 +1715,6 @@ progress::-moz-progress-bar {
 .project-content a:hover {
 
     background: #38bdf8;
-
     transform: translateY(-3px);
 
 }
@@ -1868,11 +1722,8 @@ progress::-moz-progress-bar {
 .project-tags {
 
     display: flex;
-
     flex-wrap: wrap;
-
     gap: 10px;
-
     margin-top: 20px;
 
 }
@@ -1880,13 +1731,9 @@ progress::-moz-progress-bar {
 .project-tags span {
 
     padding: 6px 14px;
-
     border-radius: 20px;
-
     background: rgba(56, 189, 248, .15);
-
     color: #38bdf8;
-
     font-size: 13px;
 
 }
@@ -2005,11 +1852,8 @@ progress::-moz-progress-bar {
 .github-container {
 
     display: grid;
-
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-
     gap: 30px;
-
     margin-top: 60px;
 
 }
@@ -2017,17 +1861,11 @@ progress::-moz-progress-bar {
 .github-container img {
 
     width: 100%;
-
     background: rgba(255, 255, 255, .05);
-
     backdrop-filter: blur(20px);
-
     border: 1px solid rgba(255, 255, 255, .08);
-
     border-radius: 20px;
-
     padding: 20px;
-
     transition: all .4s ease;
 
 }
@@ -2035,9 +1873,7 @@ progress::-moz-progress-bar {
 .github-container img:hover {
 
     transform: translateY(-10px);
-
     border-color: #38bdf8;
-
     box-shadow: 0 20px 40px rgba(37, 99, 235, .30);
 
 }
