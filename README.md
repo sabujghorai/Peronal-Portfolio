@@ -365,11 +365,7 @@ https://github.com/sabujghorai
 
 ### LinkedIn
 
-https://linkedin.com/in/YOUR-LINKEDIN
-
-### Portfolio
-
-https://YOUR-PORTFOLIO
+https://linkedin.com/in/sabuj-ghorai
 
 ### Email
 
