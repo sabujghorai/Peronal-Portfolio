@@ -85,9 +85,7 @@ section{
     color:#a1a1aa;
 }
 
-/* ===========================
-   NAVBAR
-=========================== */
+
 
 header{
     position: relative;
@@ -105,6 +103,8 @@ header{
     justify-content:space-between;
     align-items:center;
     padding:20px 10%;
+    border-radius: 50%;
+    
 }
 
 .logo h2{
@@ -160,11 +160,11 @@ header{
 }
 
 .hero-image img{
-    width:420px;
-    max-width:100%;
-    border-radius:50%;
-    border:6px solid #2563eb;
-    box-shadow:0 0 40px rgba(37,99,235,.45);
+    width: 303px;
+    max-width: 48%;
+    border-radius: 50%;
+    border: 1px solid #25aceb;
+    box-shadow: 0 0 40px rgba(37, 99, 235, .45);
 }
 
 .hello{
