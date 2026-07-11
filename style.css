@@ -196,8 +196,7 @@ section {
 }
 
 .logo:hover .logo-box{
-
-    transform:rotate(-10deg) scale(1.08);
+    transform:rotate(360deg) scale(1.5);
 
 }
 
