@@ -7,7 +7,7 @@
     <title>Sabuj Ghorai | Portfolio</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -69,7 +69,7 @@
             </h1>
 
             <h2>
-                Python Developer •  Developer • Future MLOps Engineer
+                Python Developer • Developer • Future MLOps Engineer
             </h2>
 
             <p class="description">
@@ -114,8 +114,7 @@
 
         <div class="hero-image">
 
-            <img src="Profile_picture.jpeg" alt="Sabuj Ghorai">
-
+            <img src="{{ url_for('static', filename='images/Profile_picture.jpeg') }}" alt="Sabuj Ghorai">
         </div>
 
     </section>
@@ -138,7 +137,7 @@
 
             <div class="about-image">
 
-                <img src="Profile_picture.jpeg" alt="About Me">
+                <img src="{{ url_for('static', filename='images/Profile_picture.jpeg') }}" alt="About Me">
 
             </div>
 
@@ -245,32 +244,32 @@
         <div class="tech-grid">
 
             <div class="tech-card">
-                <img src="Personal portfolio/icons/python.png" alt="">
+                <img src="{{ url_for('static', filename='images/icons/python.png') }}" alt="">
                 <h4>Python</h4>
             </div>
 
             <div class="tech-card">
-                <img src="Personal portfolio/icons/html.png" alt="">
+                <img src="{{ url_for('static', filename='images/icons/html.png') }}" alt="">
                 <h4>HTML</h4>
             </div>
 
             <div class="tech-card">
-                <img src="Personal portfolio/icons/css.png" alt="">
+                <img src="{{ url_for('static', filename='images/icons/css.png') }}" alt="">
                 <h4>CSS</h4>
             </div>
 
             <div class="tech-card">
-                <img src="Personal portfolio/icons/javascript.png" alt="">
+                <img src="{{ url_for('static', filename='images/icons/javascript.png') }}" alt="">
                 <h4>JavaScript</h4>
             </div>
 
             <div class="tech-card">
-                <img src="Personal portfolio/icons/git.png" alt="">
+                <img src="{{ url_for('static', filename='images/icons/git.png') }}" alt="">
                 <h4>Git</h4>
             </div>
 
             <div class="tech-card">
-                <img src="Personal portfolio/icons/github.png" alt="">
+                <img src="{{ url_for('static', filename='images/icons/github.png') }}" alt="">
                 <h4>GitHub</h4>
             </div>
 
@@ -494,17 +493,17 @@
         <div class="certificate-grid">
 
             <div class="certificate-card">
-                <img src="Personal portfolio/image/python_cirtificate.jpeg" alt="">
+                <img src="{{ url_for('static', filename='images/image/python_cirtificate.jpeg') }}" alt="">
                 <h3>Python Certificate</h3>
             </div>
 
             <div class="certificate-card">
-                <img src="Personal portfolio/image/web_development.jpeg" alt="">
+                <img src="{{ url_for('static', filename='images/image/web_development.jpeg') }}" alt="">
                 <h3>Web Development</h3>
             </div>
 
             <div class="certificate-card">
-                <img src="Personal portfolio/image/linux_image.jpeg" alt="">
+                <img src="{{ url_for('static', filename='images/image/linux_image.jpeg') }}" alt="">
                 <h3>Linux</h3>
             </div>
 
@@ -525,7 +524,7 @@
 
             <div class="project-card">
 
-                <img src="Personal portfolio/featured Project image/netflix_clone.jpeg" alt="">
+                <img src="{{ url_for('static', filename='images/featured Project image/netflix_clone.jpeg') }}" alt="">
 
                 <div class="project-content">
 
@@ -545,7 +544,7 @@
 
             <div class="project-card">
 
-                <img src="Personal portfolio/featured Project image/python_image.jpeg" alt="">
+                <img src="{{ url_for('static', filename='images/featured Project image/python_image.jpeg') }}" alt="">
 
                 <div class="project-content">
 
@@ -564,7 +563,7 @@
 
             <div class="project-card">
 
-                <img src="Personal portfolio/featured Project image/linux.jpeg" alt="">
+                <img src="{{ url_for('static', filename='images/featured Project image/linux.jpeg') }}" alt="">
 
                 <div class="project-content">
 
@@ -601,9 +600,11 @@
 
             <!-- Replace these image URLs later with your own GitHub stats -->
 
-              <img src="https://github-readme-streak-stats.herokuapp.com/?user=sabujghorai&theme=radical" alt="GitHub Stats" />
+            <img src="https://github-readme-streak-stats.herokuapp.com/?user=sabujghorai&theme=radical"
+                alt="GitHub Stats" />
 
-           <img src="https://github-readme-activity-graph.vercel.app/graph?username=sabujghorai&theme=react-dark&hide_border=true" alt="COntribution Graph" />
+            <img src="https://github-readme-activity-graph.vercel.app/graph?username=sabujghorai&theme=react-dark&hide_border=true"
+                alt="COntribution Graph" />
 
         </div>
 
@@ -666,7 +667,8 @@
         </div>
 
         <div class="github-container">
-             <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Thanks+for+visiting!+Let's+build+something+awesome+🚀" />
+            <img
+                src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Thanks+for+visiting!+Let's+build+something+awesome+🚀" />
         </div>
 
     </section>
@@ -678,7 +680,7 @@
     </a>
 
     <!-- JavaScript -->
-
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
 
 </html>
