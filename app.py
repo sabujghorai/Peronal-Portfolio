@@ -14,5 +14,9 @@ def icons(filename):
 def image(filename):
     return send_from_directory("image", filename)
 
+@app.route("/featured-projects/<path:filename>")
+def featured_projects(filename):
+    return send_from_directory("featured Project image", filename)
+
 if __name__ == "__main__":
     app.run(debug=True)
