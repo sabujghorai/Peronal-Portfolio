@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, send_from_directory
 
 app = Flask(__name__)
 
@@ -6,22 +6,9 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
-
-@app.route("/contact", methods=["POST"])
-def contact():
-    name = request.form.get("name")
-    email = request.form.get("email")
-    message = request.form.get("message")
-
-    print("=" * 50)
-    print("New Contact Form Submission")
-    print(f"Name: {name}")
-    print(f"Email: {email}")
-    print(f"Message: {message}")
-    print("=" * 50)
-
-    return render_template("index.html")
-
+@app.route("/icons/<path:filename>")
+def icons(filename):
+    return send_from_directory("icons", filename)
 
 if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=8000, debug=True)
+    app.run(debug=True)
